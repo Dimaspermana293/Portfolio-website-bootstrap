@@ -467,7 +467,13 @@ b, strong {
 .social-links .uil:hover {
   color: #ffc200;
 }
-
+footer .container a{
+  color: white;
+  text-decoration: none;
+}
+footer hr{
+  background-color: white;
+}
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
@@ -478,7 +484,9 @@ b, strong {
   .full-screen {
     padding-bottom: 4rem;
   }
-
+  .about-text{
+    margin-top: -80px;
+  }
   .color-mode {
     display: none;
   }
@@ -495,6 +503,9 @@ b, strong {
   .contact-info {
     padding: 0 2rem;
   }
+  /* .other-project .col-sm-4{
+    border: 1px solid red;
+  } */
 }
 @media (max-width: 767px) {
   h1 {
@@ -544,7 +555,12 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+
+  /* .other-project .col-sm-4{
+    border: 1px solid blue;
+  } */
 }
+/* under 320 do this */
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
@@ -570,4 +586,8 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+
+  /* .other-project .col-sm-4{
+    border: 1px solid yellow;
+  } */
 }
